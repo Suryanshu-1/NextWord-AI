@@ -30,7 +30,7 @@ The application uses a trained **Long Short-Term Memory (LSTM)** neural network 
 
 ## 🎯 Usage
 
-1. Open the application here: **[Run the App]([YOUR_STREAMLIT_APP_LINK_HERE](https://nextword-ai-app.streamlit.app/))**
+1. Open the application here: **[Run the App](https://nextword-ai-app.streamlit.app/)**
 2. Enter a sentence or phrase in the text box.
 3. Click **Predict next word**.
 4. View the predicted next word instantly.
