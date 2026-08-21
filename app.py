@@ -3,14 +3,8 @@ import pickle
 
 import numpy as np
 import streamlit as st
-
-try:
-    from tensorflow.keras.models import load_model
-    from tensorflow.keras.preprocessing.sequence import pad_sequences
-except ModuleNotFoundError:
-    from keras.models import load_model
-    from keras.preprocessing.sequence import pad_sequences
-
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
